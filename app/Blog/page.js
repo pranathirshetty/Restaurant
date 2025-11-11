@@ -12,31 +12,31 @@ const nav="blog-standard";
     {
       id: 1,
       img:
-        "https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?w=1200&q=80",
+        "https://restan-nextjs.vercel.app/_next/image?url=%2Fassets%2Fimg%2Fblog%2F1-full.jpg&w=3840&q=75",
       date: "12 Aug 2024",
       auth: "John Russ",
       title: "Picked up a Brussels burger sprouts.",
       dec:
-        "Bridgingle dissimilar to disconcert yet peremptorily. Plan upon yet way get old spot.",
+        "Bndulgence diminution so discovered mr apartments. Are off under folly death wrote cause her way spite. Plan upon yet way get cold spot its week. Almost do am or limits hearts. Resolve parties but why she shewing. She sang know now",
     },
     {
       id: 2,
       img:
-        "https://images.unsplash.com/photo-1600891964599-f61ba0e24092?w=1200&q=80",
+        "https://restan-nextjs.vercel.app/_next/image?url=%2Fassets%2Fimg%2Fblog%2F2-full.jpg&w=3840&q=75",
       date: "13 Aug 2024",
       auth: "Admin",
       title: "This prefabricated passive house highly",
       dec:
-        "Plan upon yet way get cold spot its week. Almost do am or limits hearts.",
+        "Bndulgence diminution so discovered mr apartments. Are off under folly death wrote cause her way spite. Plan upon yet way get cold spot its week. Almost do am or limits hearts. Resolve parties but why she shewing. She sang know now",
     },
     {
       id: 3,
       img:
-        "https://images.unsplash.com/photo-1541542684-4f3c8b9c8b8c?w=1200&q=80",
+        "https://restan-nextjs.vercel.app/_next/image?url=%2Fassets%2Fimg%2Fblog%2F3-full.jpg&w=3840&q=75",
       date: "14 Aug 2024",
       auth: "John Baas",
       title: "Overcame breeding point concerns has.",
-      decc: "Resolve parties but why she shewing. She sang know now.",
+      dec: "Bndulgence diminution so discovered mr apartments. Are off under folly death wrote cause her way spite. Plan upon yet way get cold spot its week. Almost do am or limits hearts. Resolve parties but why she shewing. She sang know now",
     },
   ];
   const [darkMode,setDarkMode ]=useState(false);
@@ -55,9 +55,9 @@ const nav="blog-standard";
        };
        
     return (
-   <div className={darkMode ? "dark" :""}>
+   <div className={darkMode ? "dark " :""}>
     <div className="min-h-screen  bg-white-300 dark:bg-grey-900 text-grey-900 dark:text-grey-100 ">
-      <div>
+      <div >
 <Navbar toggleTheme={toggleTheme} darkMode={darkMode}
 
 hed={hed}
@@ -67,7 +67,7 @@ nav={nav}/>
       
 </div>
 <div className="max-w-6xl mx-auto px-4 "> 
-<div className="space-y-8 mt-10">
+<div className="space-y-8 justify-center items-center mt-10">
   {
     blogs.map((b)=>(
       <Blogcard
@@ -76,7 +76,7 @@ nav={nav}/>
       date={b.date}
       auth={b.auth}
       title={b.title}
-      dec={b.des}
+      dec={b.dec}
       />
     ))
   }

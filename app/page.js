@@ -24,8 +24,8 @@ export default function Blog() {
   };
 
   return (
-    <div className={darkMode ? "dark" : ""}>
-      <div className="min-h-screen  bg-white-300 dark:bg-grey-900 text-grey-900 dark:text-grey-100 ">
+    <div className={darkMode ? "dark overflow-x-hidden" : "overflow-x-hidden"}>
+      <div className="min-h-screen  bg-white-300 dark:bg-black text-grey-900 dark:text-white  ">
         <div>
           <Navbar
             toggleTheme={toggleTheme}
@@ -134,7 +134,7 @@ export default function Blog() {
         </div>
         {/*chef */}
         <div
-          className="bg-cover bg-center h-150 bg-[ebe9e5]"
+          className="bg-cover bg-center h-150 bg-[#ebe9e5]"
           
         >
           <div className=" text-center  ">
@@ -166,7 +166,7 @@ export default function Blog() {
                     className="w-[250px] h-auto   rounded-[100%] p-4 border border-gray-900"
                   />
                 </div>
-                <div className="bg-[#826a45] w-70 ml-[-14px]  h-18 mt-[-80px] ">
+                <div className="bg-[#826a45] w-70 ml-[-14px]  h-18 mt-[-80px]  ">
                   <div className="text-center text-white text-md font-bold font-serif font-Times New Roman p-2">
                     Mendia Juxef
                     <br />
@@ -195,7 +195,7 @@ export default function Blog() {
 
 
         {/*time */}
-        <div className="bg-gray-400 w-[100] h-150 ">
+        <div className=" w-[100] h-170 ">
           <div className="flex flex-row  pt-20 px-50">
             <div className="flex flex-col">
               <div className="text-8xl text-gray-100  font-bold font-serif font-Times New Roman mb-[-13px]">
@@ -210,14 +210,14 @@ export default function Blog() {
             </div>
 
             <div className="flex flex-col ml-[-80px]">
-              <div className="bg-white w-130 h-100 p-16">
-                <div className="text-[#826a45]  text-[30px] font-Marcellus font-cursive w-600">Opening Hours</div>
-                <div className="text-[#666] font-Lato,sans-serif text-sm py-2
+              <div className="bg-white dark:bg-[#262525]  w-130 h-100 p-16">
+                <div className="text-[#826a45] text-black  dark:text-white text-[30px] font-Marcellus font-cursive w-600">Opening Hours</div>
+                <div className="text-[#666] font-Lato,sans-serif text-sm py-2 
 ">
                   A relaxing and pleasant atmosphere, good jazz, dinner, and
                   cocktails. The Patio Time Bar opens in the center..
                 </div>
-                <div className="flex flex-col text-[16px] py-5 font-Marcellus font-cursive font-bold">
+                <div className="flex flex-col text-[16px] py-5 font-Marcellus  dark:text-white text-black font-cursive font-bold">
                   <div className="flex flex-row">
                     <div>Sunday to Tuesday:</div>
                     <div className="border-b border-gray-500 pb-1 w-25 mb-[10px] mx-2"> </div>
@@ -238,31 +238,37 @@ export default function Blog() {
                   <div className="flex flex-row py-2">
                     <div className="bg-[#826a45] rounded-full w-15 h-15">
 
-                     <div> 
-                      <img
-                      scr="https://restan-nextjs.vercel.app/_next/image?url=%2Fassets%2Fimg%2Ficon%2F6.png&w=128&q=75"
-                     className=" w-10
-                      h-10 p-8 "
-                      alt="logo"
-                      />
-</div>
+                <img
+    src="https://restan-nextjs.vercel.app/_next/image?url=%2Fassets%2Fimg%2Ficon%2F6.png&w=128&q=75"
+    width="30"
+    height="30"
+    alt="call"
+    className="m-3"
+    />  
                     </div>
                     <div className="flex flex-col px-5">
                     <div className="text-[#666]">Call Anytime</div>
-                      <div className="text-lg text-[#04000b] font-semibold  font-serif font-Times New Roman">+964733-378901</div>
+                      <div className="text-lg text-[#04000b] font-semibold   dark:text-white  font-serif font-Times New Roman">
+                        +964733-378901</div>
                     </div>
                   </div>
-              
-
+                  
+               
                
               </div>
-              
+              <img
+        src="https://restan-nextjs.vercel.app/_next/image?url=%2Fassets%2Fimg%2Fshape%2F4.png&w=3840&q=75"
+        alt="logo"
+        className="w-440 h-50 ml-25 mt-10 "
+        />
+
             </div>
           </div>
         </div>
         {/*End of code of page */}
       </div>
-      <Footer />
+      <div className="mt-[-120px]"> <Footer /></div>
+    
     </div>
   );
 }
