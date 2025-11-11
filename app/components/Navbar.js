@@ -3,7 +3,7 @@ import React from "react";
 
 export default function Navbar({toggleTheme,darkMOde,hed,nav}){
     return ( <div >
-        <div className="bg-[#826a45] h-10 px-7 py-2 text-white">
+        <div className="bg-[#826a45] h-10 px-7 py-2  text-white">
 <div ><div className="flex flex-row pl-40 m1-20">
     <img
     src="https://restan-nextjs.vercel.app/_next/image?url=%2Fassets%2Fimg%2Ficon%2F6.png&w=128&q=75"
@@ -30,17 +30,17 @@ export default function Navbar({toggleTheme,darkMOde,hed,nav}){
     /> <div className="px-2">English</div>
 </div>
 <div>
-    <div className="md:flex space-x-2 px-5 py- hidden md:block">
-            <div className="bg-red-500 w-[20px] h-[20px] rounded-full flex items-center justify-center text-white font-bold">
+    <div className="md:flex space-x-2 px-5 text-sm ">
+            <div className="bg-[#3f3f3f] w-[25px] h-[25px] rounded-full flex items-center justify-center text-white ">
               F
             </div>
-            <div className="bg-red-500 w-[20px] h-[20px] rounded-full flex items-center justify-center text-white font-bold">
+            <div className="bg-[#3f3f3f] w-[25px] h-[25px] rounded-full flex items-center justify-center text-white ">
               T
             </div>
-            <div className="bg-red-500 w-[20px] h-[20px] rounded-full flex items-center justify-center text-white font-bold">
+            <div className="bg-[#3f3f3f] w-[25px] h-[25px] rounded-full flex items-center justify-center text-white">
               I
             </div>
-            <div className="bg-red-500 w-[20px] h-[20px] rounded-full flex items-center justify-center text-white font-bold">
+            <div className="bg-[#3f3f3f] w-[25px] h-[25px] rounded-full flex items-center justify-center text-white">
               P
             </div>
           </div>
@@ -64,11 +64,11 @@ export default function Navbar({toggleTheme,darkMOde,hed,nav}){
         </div>
         <div></div>
         <div className="hidden md:flex items-center gap-6 text-sm  ">
-        <a className="text-white" href="">Home</a>
-        <a className="text-white" href="">About us</a>
-        <a className="text-white" href="">Menu</a>
-        <a className="text-white" href="">Blog</a>
-        <a className="text-white" href="">Shop</a>
+        <a className="text-white" href="/">Home</a>
+        <a className="text-white" href="/aboutus">About us</a>
+        <a className="text-white" href="/Menu">Menu</a>
+        <a className="text-white" href="/Blog">Blog</a>
+        <a className="text-white" href="/shop">Shop</a>
         </div>
         <div className="flex items-center gap-3">
         

@@ -1,9 +1,9 @@
 "use client"
-import Navbar from "./components/Navbar";
+import Navbar from "../components/Navbar";
 
-export default function Home(){
-    const hed = "Home";
-  const nav = "home";
+export default function Shop(){
+    const hed = "Shop";
+  const nav = "shop";
 return(
      
             <div>
