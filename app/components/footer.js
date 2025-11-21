@@ -32,7 +32,7 @@ export default function Footer(){
       <div className="bg-[#1b1b1b]  text-gray-400 md:w-auto w-420 h-950 md:h-70 pt-6 md:mx-35 mt-[-830px] md:mt-[-400px] z-20">
     
       <div className="md:max-w-5xl   md:mx-auto  px-2  sm:px-6 lg:px-8 flex flex-col md:flex-row  md:flex flex-cols-4 md:space-x-4  ">
-<div className="md:border-r md:border-gray-500 w-100 md:h-auto h-auto">
+<div className="border-r md:border-gray-500 w-100 md:h-50 h-auto">
           <h3 className="text-white text-[90px] md:mt-0 mt-10 md:text-lg mb-4 ml-5 ">About Us</h3>
           <p className="md:text-sm text-[70px] md:w-50 w-90   whitespace-nowrap md:mr-20 md:ml-0 ml-25">
             Continued at zealously necessary is <br/>Surrounded sir  
