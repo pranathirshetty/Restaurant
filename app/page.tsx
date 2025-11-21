@@ -42,7 +42,7 @@ export default function Home() {
     
       </div>
         <div className="bg-white mt-550 w-430 block md:hidden ">
-        <div className=" dark:text-white text-black md:text-[40px] font-light font-[Marcellus] flex justify-center text-[150px] ">
+        <div className=" dark:text-white  text-black md:text-[40px] font-light font-[Marcellus] flex justify-center text-[150px] ">
           Our Popular category
         </div>
         <div className=" dark:bg-[#262525] flex flex-col md:flex-row mt-10 items-center  justify-center gap-10 px-6 ">
@@ -89,8 +89,8 @@ export default function Home() {
         <div className="text-yellow-800  hidden md:block dark:text-white text-[40px] font-bold  ">
           Food Menu
         </div>
-        <div className="block md:hidden text-yellow-800 text-[110px] font-bold  justify-center ml-280">  Food Menu</div>
-        <div className="  text-[120px] text-center font-bold md:text-5xl md:ml-1 ml-280 ">Our Specials Menu</div>
+        <div className="block md:hidden text-yellow-800 text-[110px] font-bold whitespace-nowrap justify-center ml-280">  Food Menu</div>
+        <div className="  text-[120px] text-center font-bold md:text-5xl md:ml-1 ml-280 whitespace-nowrap ">Our Specials Menu</div>
 
         <div className="flex md:flex-row flex-col md:text-2xl md:ml-1 ml-250 gap-15 md:p-4 border-black border-2 dark:border-white p-40 gap-y-40 text-[100px]">
           <button
@@ -236,10 +236,10 @@ export default function Home() {
       </div>
       <Chef />
       <div className="flex justify-center flex-col items-center font-[Marcellus]">
-        <div className="text-[#826A45] font-semibold mt-30 text-[23px] dark:text-white">
+        <div className="text-[#826A45] font-semibold mt-30 whitespace-nowrap md:ml-1 ml-230 text-[75px] md:text-[23px] dark:text-white">
           NEWS & BLOG
         </div>
-        <div className=" font-semibold   text-[37px]">
+        <div className=" font-semibold whitespace-nowrap md:ml-1 ml-325  md:text-[37px] text-[150px]">
           Our Latest News & Blog
         </div>
       </div>
