@@ -67,7 +67,7 @@ nav={nav}/>
       
 </div>
 <div className="max-w-6xl mx-auto px-4 "> 
-<div className="space-y-8 justify-center items-center mt-10">
+<div className="space-y-8  mt-10">
   {
     blogs.map((b)=>(
       <Blogcard

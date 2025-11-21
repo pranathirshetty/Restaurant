@@ -4,6 +4,7 @@ import Navbar from "../components/Navbar";
 import Footer from "../components/Footer";
 import { useEffect, useState } from "react";
 import { redirect } from "next/dist/server/api-utils";
+import Time from "../components/time";
 
 export default function Blog() {
   const hed = "About Us";
@@ -24,7 +25,8 @@ export default function Blog() {
   };
 
   return (
-    <div className={darkMode ? "dark overflow-x-hidden" : "overflow-x-hidden"}>
+    
+    <div className={darkMode ? "dark overflow-hidden" : "overflow-hidden"}>
       <div className="min-h-screen  bg-white-300 dark:bg-black text-grey-900 dark:text-white  ">
         <div>
           <Navbar
@@ -38,47 +40,47 @@ export default function Blog() {
         {/*partener*/}
 
         <div
-          className="bg-cover bg-center h-90"
+          className="bg-cover bg-center  md:h-90  h-40"
           style={{
             backgroundImage:
-              "url('https://product-assets.faasos.io/eatsure/production/lazy-image-placeholder.jpeg?d=375&tr=w-0.5,h-0.5')",
+              "url('https://restan-nextjs.vercel.app/assets/img/shape/1.png')",
           }}
         >
-          <div className="text-white text-center pt-25">
-            <div className="text-center text-yellow-900">
+          <div className="text-center pt-10 md:pt-25">
+            <div className=" md:text-xl text-sm text-center text-yellow-900">
               OUR TRUSTED 8K HAPPY PARTNER
             </div>
-            <div className="p-6  flex justify-around items-center mt-6 pb-30">
+            <div className="md:p-6  p-2 flex justify-around items-center mt-2 md:mt-6 pb-2 md:pb-30">
               <div>
                 <img
-                  className="w-[200px] h-[100px] pl-9 ml-2  "
+                  className="w-[200px] h-[100px] md:pl-9 md:ml-2 hidden md:block  "
                   src="https://restan-nextjs.vercel.app/_next/image?url=%2Fassets%2Fimg%2Fbrand%2F1.png&w=1080&q=75"
                 />
               </div>
               <div>
                 <img
-                  className="w-[200px] h-[100px] pl-9 ml-2  "
+                  className="w-[200px] h-[100px] md:pl-9 md:ml-2  hidden md:block "
                   src="https://restan-nextjs.vercel.app/_next/image?url=%2Fassets%2Fimg%2Fbrand%2F2.png&w=1080&q=75"
                   alt="logo"
                 />
               </div>
               <div>
                 <img
-                  className="w-[200px] h-[100px] pl-9 ml-2  "
+                  className="w-[200px] h-[100px] md:pl-9 md:ml-2  hidden md:block "
                   src="https://restan-nextjs.vercel.app/_next/image?url=%2Fassets%2Fimg%2Fbrand%2F3.png&w=1080&q=75"
                   alt="logo"
                 />
               </div>
               <div>
                 <img
-                  className="w-[200px] h-[100px] pl-9 ml-2  "
+                  className="w-[100px] md:w-[200px] md:h-[100px] h-[50px] md:pl-9   md:ml-2  "
                   src="https://restan-nextjs.vercel.app/_next/image?url=%2Fassets%2Fimg%2Fbrand%2F4.png&w=1080&q=75"
                   alt="logo"
                 />
               </div>
               <div>
                 <img
-                  className="w-[200px] h-[100px] pl-9 ml-2  "
+                  className="w-[100px] md:w-[200px] h-[50px] md:h-[100px] md:pl-9 pl-5 md:mr-0 mr-15 md:ml-2  "
                   src="https://restan-nextjs.vercel.app/_next/image?url=%2Fassets%2Fimg%2Fbrand%2F5.png&w=1080&q=75"
                   alt="logo"
                 />
@@ -87,12 +89,12 @@ export default function Blog() {
           </div>
         </div>
         {/*about us */}
-        <div className="bg-gray-100 w-[100%] h-150  ">
+        <div className="bg-gray-100 w-[100%] md:h-150 h-120  ">
           <div>
-            <div className="flex flex-row">
+            <div className="flex flex-col md:flex-row ">
               <div>
                 <img
-                  className="w-[350px] h-[400px] mt-25  "
+                  className="md:w-[350px] w-[100%] h-[200px] md:h-[400px] md:mt-25  "
                   src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS_ENbkpy6J-Qrq0sdzPlRQSHSGIUu7NTgxXNdN1AoU3sazpwWeWnAlEZwiZYhnqmcE85U&usqp=CAU"
                   alt="logo"
                 />
@@ -104,9 +106,9 @@ export default function Blog() {
                   alt="logo"
                 />
               </div> 
-              <div className="bg-white h-100 w-170 p-16 mt-40 ml-[-30px]">
+              <div className="bg-white h-70 md:h-110 md:w-170 w-[100%] md:p-5 md:p-16 md:mt-40 md:ml-[-30px]">
                 <div className="text-yellow-900 text-lg">ABOUT US</div>
-                <div className="text-black text-4xl py-6 px-3 font-bold font-serif font-Times New Roman">
+                <div className="text-black md:text-4xl text-2xl py-3 md:py-6 px-1 md:px-3 font-bold font-serif font-Times New Roman">
                   We Invite You
                   <br /> To Visit Our Restaurant
                 </div>
@@ -124,7 +126,7 @@ export default function Blog() {
               </div>
               <div>
                 <img
-                  className="w-[250px] h-[100px] mt-24 ml-[-90px]  "
+                  className="w-[250px] h-[100px] mt-24 ml-[-90px] hidden md:block  "
                   src="https://restan-nextjs.vercel.app/_next/image?url=%2Fassets%2Fimg%2Fshape%2F2.png&w=3840&q=75"
                   alt="logo"
                 />
@@ -134,15 +136,15 @@ export default function Blog() {
         </div>
         {/*chef */}
         <div
-          className="bg-cover bg-center h-150 bg-[#ebe9e5]"
+          className="bg-cover bg-center md:h-150 h-260 bg-[#ebe9e5]"
           
         >
           <div className=" text-center  ">
-            <div className="text-yellow-900 test-md pt-20">MASTER CHEFS</div>
-            <div className="text-black text-5xl p-4 font-bold font-serif font-Times New Roman mb-6">
+            <div className="text-yellow-900 test-3xl pt-10 md:pt-20">MASTER CHEFS</div>
+            <div className="text-black text-2xl md:text-5xl p-4 font-bold font-serif font-Times New Roman mb-6">
               Meet Our Special Chefs
             </div>
-            <div className="flex flex-row mt-10 justify items-center gap-30 ml-50">
+            <div className="flex flex-col md:flex-row mt-5 md:mt-10 justify items-center gap-15 md:gap-30 md:ml-50">
               <div className="flex flex-col">
                 <div>
                   <img
@@ -195,79 +197,10 @@ export default function Blog() {
 
 
         {/*time */}
-        <div className=" w-[100] h-170 ">
-          <div className="flex flex-row  pt-20 px-50">
-            <div className="flex flex-col">
-              <div className="text-8xl text-gray-100  font-bold font-serif font-Times New Roman mb-[-13px]">
-                RESTAN
-              </div>
-              <div className="bg-black w-150 h-100 bg-center ">
-                <img
-                  src="https://plus.unsplash.com/premium_photo-1694707367241-379972ecdc10?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NjV8fGZvb2R8ZW58MHx8MHx8fDA%3D&auto=format&fit=crop&q=60&w=900"
-                  className="w-[100%] h-[80%] mt-8"
-                />
-              </div>
-            </div>
-
-            <div className="flex flex-col ml-[-80px]">
-              <div className="bg-white dark:bg-[#262525]  w-130 h-100 p-16">
-                <div className="text-[#826a45] text-black  dark:text-white text-[30px] font-Marcellus font-cursive w-600">Opening Hours</div>
-                <div className="text-[#666] font-Lato,sans-serif text-sm py-2 
-">
-                  A relaxing and pleasant atmosphere, good jazz, dinner, and
-                  cocktails. The Patio Time Bar opens in the center..
-                </div>
-                <div className="flex flex-col text-[16px] py-5 font-Marcellus  dark:text-white text-black font-cursive font-bold">
-                  <div className="flex flex-row">
-                    <div>Sunday to Tuesday:</div>
-                    <div className="border-b border-gray-500 pb-1 w-25 mb-[10px] mx-2"> </div>
-                    <div>10:00 - 09:00</div>
-                  </div>
-                  <div className="flex flex-row">
-                    <div>Sunday to Tuesday:</div>
-                    <div className="border-b border-gray-500 pb-1 w-25 mb-[10px] mx-2"> </div>
-                    <div>10:00 - 09:00</div>
-                  </div>
-                  <div className="flex flex-row">
-                    <div className="text-#04000b">Sunday to Tuesday:</div>
-                    <div className="border-b border-gray-500 pb-1 w-25 mb-[10px] mx-2"> </div>
-                    <div>10:00 - 09:00</div>
-                  </div>
-                  </div>
-                  
-                  <div className="flex flex-row py-2">
-                    <div className="bg-[#826a45] rounded-full w-15 h-15">
-
-                <img
-    src="https://restan-nextjs.vercel.app/_next/image?url=%2Fassets%2Fimg%2Ficon%2F6.png&w=128&q=75"
-    width="30"
-    height="30"
-    alt="call"
-    className="m-3"
-    />  
-                    </div>
-                    <div className="flex flex-col px-5">
-                    <div className="text-[#666]">Call Anytime</div>
-                      <div className="text-lg text-[#04000b] font-semibold   dark:text-white  font-serif font-Times New Roman">
-                        +964733-378901</div>
-                    </div>
-                  </div>
-                  
-               
-               
-              </div>
-              <img
-        src="https://restan-nextjs.vercel.app/_next/image?url=%2Fassets%2Fimg%2Fshape%2F4.png&w=3840&q=75"
-        alt="logo"
-        className="w-440 h-50 ml-25 mt-10 "
-        />
-
-            </div>
-          </div>
-        </div>
+        <Time/>
         {/*End of code of page */}
       </div>
-      <div className="mt-[-120px]"> <Footer /></div>
+      <div className="mt-[-100px] h-70"> <Footer /></div>
     
     </div>
   );
