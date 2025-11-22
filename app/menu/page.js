@@ -191,7 +191,7 @@ export default function Menu() {
           </div>
         </div>
       </div>
-      <div className="h-60">
+      <div className="md:h-60">
 <Footer/>
      </div>
     </div>
