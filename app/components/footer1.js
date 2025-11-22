@@ -3,7 +3,7 @@ import React from "react";
 export default function Footer1(){
   return (
     <div  >
-<div className="w-500 h-45 md:h-65 bg-[#262525] mt-180  md:mt-60 pt-20 flex flex-col">
+<div className="w-400 h-45 md:h-65 bg-[#262525] mt-180  md:mt-60 pt-20 flex flex-col">
         <div className="flex flex-row">
        <img
             className=" mt-20 w-[100px] h-[100px] text-left hidden md:block "
@@ -12,15 +12,14 @@ export default function Footer1(){
           />
           
           <img
-            className="md:mt-20 md:w-[120px] md:h-[70px] ml-150 pl-10 md:ml-2 mt-550 h-90 w-120 "
+            className="md:mt-20 md:w-[120px] md:h-[70px] ml-150 pl-10 md:ml-2 mt-550 h-90 w-120  "
             src="https://restan-nextjs.vercel.app/_next/image?url=%2Fassets%2Fimg%2Flogo-light.png&w=1920&q=75"
             alt="logo"
           />
+       <div className="text-white mt-[120px] ml-200 hidden md:block">© Copyright 2025. Restan. All Rights Reserved   </div>
           </div>
-           <div className=" flex flex-row md:flex-col py-20 text-sm md:text-lg  md:py-6 text-right mt-[-90px]
-       dark:text-gray-300 pl-8 md:pr-10  ">
-© Copyright 2025. Restan. All Rights Reserved        </div>
 
+       <div className="text-white mt-[120px] ml-100 text-[50px] block md:hidden">© Copyright 2025. Restan. All Rights Reserved   </div>
 
 
 

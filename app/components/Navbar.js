@@ -72,7 +72,8 @@ export default function Navbar({toggleTheme,darkMOde,hed,nav}){
         <div></div>
         <div className=" md:flex items-center font-bold font-serif font-Times New Roman text-black md:gap-6  md:text-sm text-[15px] md:px-4">
      
-           <button onClick={() => router.push("/")}>Home</button>
+           <button
+           className="text-white" onClick={() => router.push("/")}>Home</button>
         <a className="md:text-white px-2" href="/aboutus">About us  </a>
         <a className="md:text-white px-2" href="/menu">Menu  </a>
         <a className="md:text-white px-2" href="/blog">Blog </a>
