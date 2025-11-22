@@ -1,9 +1,10 @@
 "use client";
 import Menucard from "../components/Menucard";
 import Navbar from "../components/Navbar";
-import Footer from "../components/footer1";
+import Footer from "../components/footer";
 import { useEffect, useState } from "react";
 import Time from "../components/time";
+
 export default function Menu() {
   const hed = "Restaurant Best Food";
   const nav = "food-menu";
@@ -190,10 +191,9 @@ export default function Menu() {
           </div>
         </div>
       </div>
-<div className="h-60">
- <Footer />
-</div>
-     
+      <div className="h-60">
+<Footer/>
+     </div>
     </div>
   );
 }
