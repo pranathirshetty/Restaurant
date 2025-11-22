@@ -22,7 +22,6 @@ export default function Home() {
            
     <div>
       <Header/>
-      <div className=" dark:bg-[#262525] rounded-3xl text-white  font-semibold  "></div>
         <Table />
         
         <div className=" dark:text-white text-black  md:text-[40px] hidden font-light font-[Marcellus] md:flex justify-center text-[150px] ">
@@ -186,7 +185,7 @@ export default function Home() {
               why she shewing. She sang know now
             </div>
             <div className="flex md:flex-row gap-5 flex-col">
-              <button className=" md:text-lg border text-[80px] rounded-full bg-white text-black px-15 p-5  hover:bg-black hover:text-white transition  mt-10 ">
+              <button className=" md:text-lg border text-[80px] rounded-full bg-white text-black px-15 p-5  hover:bg-black hover:text-white   mt-10 ">
                 App Store
               </button>
               <button className=" md:text-lg border text-[80px] rounded-full dark:text-white bg-[#826A45] text-black px-15 p-3   hover:bg-white  mt-10 ">

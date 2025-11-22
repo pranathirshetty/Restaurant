@@ -11,7 +11,7 @@ export default function Header() {
             "url('https://restan-nextjs.vercel.app/assets/img/banner/14.jpg')",
         }}
       >
-        <div className="bg-gray-800  text-white justify-between p-2 items-center dark:bg-gray-800">
+        <div className="bg-gray-800  text-white justify-between p-2 items-center dark:bg-gray-800 overflow-x-hidden">
           <div className="text-white rounded-sm flex row h-12 ">
             <img
               src="https://public-assets.envato-static.com/assets/logos/envato_market-dd390ae860330996644c1c109912d2bf63885fc075b87215ace9b5b4bdc71cc8.svg"

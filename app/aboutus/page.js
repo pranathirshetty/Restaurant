@@ -36,9 +36,7 @@ export default function Blog() {
             nav={nav}
           />
         </div>
-        {/*Start of code of page */}
-        {/*partener*/}
-
+     
         <div
           className="bg-cover bg-center  md:h-90  h-40"
           style={{
@@ -88,7 +86,7 @@ export default function Blog() {
             </div>
           </div>
         </div>
-        {/*about us */}
+        
         <div className="bg-gray-100 w-[100%] md:h-150 h-120  ">
           <div>
             <div className="flex flex-col md:flex-row ">
@@ -134,7 +132,7 @@ export default function Blog() {
             </div>
           </div>
         </div>
-        {/*chef */}
+       
         <div
           className="bg-cover bg-center md:h-150 h-260 bg-[#ebe9e5]"
           
@@ -196,9 +194,9 @@ export default function Blog() {
         </div>
 
 
-        {/*time */}
+        
         <Time/>
-        {/*End of code of page */}
+       
       </div>
       <div className="mt-[-100px] h-70"> <Footer /></div>
     
