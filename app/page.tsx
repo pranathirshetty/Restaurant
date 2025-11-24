@@ -76,7 +76,7 @@ export default function Home() {
 
 
 
-      <div className="flex md:flex-row mt-20 flex-col dark:bg-[#262525]">
+      <div className="flex md:flex-row mt-20 flex-col ">
         <Feature
           image="https://restan-nextjs.vercel.app/_next/image?url=%2Fassets%2Fimg%2Ficon%2F13.png&w=640&q=75"
           title=" Quality Foods"

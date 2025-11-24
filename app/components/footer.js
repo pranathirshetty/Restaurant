@@ -30,8 +30,8 @@ export default function Footer(){
 
       <div className="bg-[#1b1b1b]  text-gray-400  h-170 md:h-70 pt-6 md:mx-35 mt-[-830px] md:mt-[-400px] z-20">
     
-      <div className="md:max-w-5xl   md:mx-auto  px-2  sm:px-6 lg:px-8 flex flex-col md:flex-row  md:flex flex-cols-4 md:space-x-4  ">
-        <div className="md:border-r border-grey-800 w-100 ">
+      <div className="md:max-w-5xl  md:mx-auto  px-2  sm:px-6 lg:px-8 flex flex-col md:flex-row  md:flex flex-cols-4 md:space-x-4  ">
+        <div className="md:border-r  border-grey-800 w-100 ">
           <h3 className="text-white text-lg mb-4 ">About Us</h3>
           <p className="text-sm md:w-50 w-90  mb-2">
             Continued at zealously necessary is Surrounded sir motionless she end literature. Gay direction neglected.
