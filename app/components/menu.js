@@ -17,7 +17,7 @@ export default function Menu({image,name,price})
               4 Chicken Legs,Chilli Sauce, Soft Drinks
             </p>
             <p className="text-amber-600 p-4 dark:text-[#826A45] text-7xl md:text-[20px]">${price}</p>
-            <button className="border rounded-full   dark:bg-[#826A45] dark:hover:bg-white dark:text-black text-black md:px-30 p-3 m-4 text-[70px] md:text-sm hover:bg-[#826A45] hover:text-black transition ">
+            <button className="border rounded-full   dark:bg-[#826A45] dark:hover:bg-white dark:text-black text-black md:px-30 p-3 m-4 text-[70px] md:text-sm hover:bg-[#826A45] hover:text-white transition ">
               Add to Cart
             </button>
           </div>

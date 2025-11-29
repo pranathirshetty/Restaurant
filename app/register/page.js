@@ -16,7 +16,7 @@ export default function Register()
               width="150"
               alt="image not found "
             />
-            <button className="bg-green-600 ml-320 cursor-pointer p-1 m-2 rounded-xl">
+            <button className="bg-green-600 ml-300 cursor-pointer p-1 m-2 rounded-xl">
               Buy Now
             </button>
           </div>
@@ -57,13 +57,13 @@ export default function Register()
        alt="Image not found"
        height="50"
        width="150"/>
-        <div className=" text-white font-normal text-lg  row p-2 flex justify-center mr-40 mt-[-70px]">
-          <span className="ml-20 space-x-3 ">
-            <Link href="/">Home⮟</Link> <a href="">Pages⮟</a> <a href="">Menu⮟</a>
+        <div className=" text-white font-normal text-[18px]  row p-2 flex justify-center mr-40 mt-[-70px]">
+          <span className="ml-40 space-x-3 ">
+            <Link href="/">Home⮟</Link> <a href="">Pages⮟</a> <a href="/menu">Menu⮟</a>
           </span>
           <span className="ml-2 space-x-3">
       
-            <a href="">Blog⮟</a> <a href="">Shop⮟</a> <a href="">Contact Us⮟</a>
+            <a href="/blog">Blog⮟</a> <a href="">Shop⮟</a> <a href="/aboutus">About Us⮟</a>
           </span>
         </div> <div className="text-white text-[115px] md:text-[50px] font-bold font-[Marcellus]  flex justify-center mt-35">Register Page</div> 
       <div className="text-white flex justify-center  text-[55px] md:text-[20px]">Home register </div>

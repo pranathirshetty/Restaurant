@@ -3,7 +3,7 @@ import React from "react";
 export default function Footer1(){
   return (
     <div  >
-<div className="w-400 h-45 md:h-65 bg-[#262525] mt-180  md:mt-60 pt-20 flex flex-col">
+<div className="w-370 h-45 md:h-65 bg-[#262525] mt-180  md:mt-60 pt-20 flex flex-col">
         <div className="flex flex-row">
        <img
             className=" mt-20 w-[100px] h-[100px] text-left hidden md:block "
