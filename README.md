@@ -1,36 +1,94 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Restaurant Website (Next.js)
 
-## Getting Started
+A modern and responsive Restaurant Website built using **Next.js App Router**.  
+The project includes multiple pages, reusable UI components, and a clean structure for easier scalability.
 
-First, run the development server:
+---
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+## 🔗 Live Demo (Vercel)
+https://restaurant-murex-alpha.vercel.app/
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+---
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## 📁 Folder Structure Breakdown
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+### **/app**
+Main application folder using Next.js App Router.
 
-## Learn More
+#### ✔️ /app/aboutus
+Contains the About Us page (`page.js`).
 
-To learn more about Next.js, take a look at the following resources:
+#### ✔️ /app/blog
+Blog page section.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+#### ✔️ /app/login
+Login page (`page.js`).
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+#### ✔️ /app/menu
+Menu page showing available dishes.
 
-## Deploy on Vercel
+#### ✔️ /app/register
+User registration page.
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+#### ✔️ app/page.tsx
+Home page of the website.
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+#### ✔️ app/layout.tsx
+Root layout applied to all pages.
+
+---
+
+### **/app/components**
+This folder contains all your reusable UI components:
+
+- **Blogcard.js** — Blog card component  
+- **booktable.js** — Book a table section  
+- **chef.js** — Chef highlight section  
+- **dishes.js** — Dishes listing  
+- **feature.js** — Featured items  
+- **footer.js** / **footer1.js** — Footer components  
+- **header.js** — Hero / header section  
+- **menu.js** — Menu section component  
+- **Menucard.js** — Menu item card  
+- **Navbar.js** — Navigation bar  
+- **news.js** — News updates  
+- **offer.js** — Offers / deals section  
+- **time.js** — Restaurant timing component  
+
+---
+
+### **/public**
+Contains static assets such as:
+- Images  
+- Icons  
+- favicon.ico  
+
+---
+
+### **/globals.css**
+Global stylesheet for the project.
+
+---
+
+## 📦 Important Files
+- **package.json** — Project dependencies  
+- **next.config.js** — Next.js configuration file  
+- **layout.tsx** — Main layout  
+- **page.tsx** — Home page  
+
+---
+
+## 🧪 Tech Stack
+- **Next.js (App Router)**  
+- **React**  
+- **Tailwind CSS** (if used)  
+- **Vercel** for deployment  
+
+---
+
+## ✨ Features
+- Fully responsive restaurant website  
+- Reusable component-based structure  
+- Clean and scalable project architecture  
+- Multi-page setup (Home, Menu, Blog, About, Login, Register)
+
