@@ -1,6 +1,6 @@
  export default function Blogcard({ img, date, auth, title, dec}){
     return(
-        <div className="bg-gray-100 dark:bg-grey-800 justify-items-center md:ml-35 h-115 md:h-160 items-center md:w-[800px] rounded-xl ">
+        <div className="bg-gray-100 dark:bg-grey-800 justify-items-center md:ml-35 h-115 md:h-160 items-center md:w-[800px] rounded-xl dark:text-black ">
             <div className="w-full h-65 md:h-56 ">
                 <img src={img} alt={title}
                 className="w-full h-50 md:h-80 "/>
