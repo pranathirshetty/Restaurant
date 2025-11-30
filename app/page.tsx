@@ -167,7 +167,7 @@ export default function Home() {
         </div>
       </div>
 
-      <div className="bg-gray-900 m-20  p-30 md:w-340 md:h-200 w-400 h-970 rounded-2xl">
+      <div className="bg-gray-900 m-20  p-30 md:w-340 md:h-200 w-400 h-970 rounded-2xl dark:bg-gray-900">
         <div className="flex md:flex-row flex-col justify-between  ">
           <img
             src="https://restan-nextjs.vercel.app/_next/image?url=%2Fassets%2Fimg%2Fillustration%2F16.png&w=2048&q=75"
@@ -188,7 +188,7 @@ export default function Home() {
               <button className=" md:text-lg border text-[80px] rounded-full bg-white text-black px-15 p-5  hover:bg-black hover:text-white   mt-10 ">
                 App Store
               </button>
-              <button className=" md:text-lg border text-[80px] rounded-full dark:text-white bg-[#826A45] text-black px-15 p-3   hover:bg-white  mt-10 ">
+              <button className=" md:text-lg border text-[80px] rounded-full dark:text-black bg-[#826A45] text-black px-15 p-3   hover:bg-white  mt-10 ">
                 Play Store
               </button>
             </div>
@@ -203,7 +203,7 @@ export default function Home() {
             className="rounded-2xl mr-300 mt-[-10px] md:h-130 md:w-200 h-480 w-400"
           ></iframe>
         </div>
-        <div className="text-center md:w-170 bg-white md:p-15  p-25 shadow-2xl font-serif dark:bg-gray-900 md:ml-180  position absolute md:top-1300 w-420  md:h-auto h-500 ">
+        <div className="text-center md:w-170 bg-white md:p-15  p-25 shadow-2xl font-serif rounded-2xl dark:bg-gray-900 md:ml-180  position absolute md:top-1300 w-420  md:h-auto h-500 ">
           <div className="flex md:justify-items-center font-sans font-semibold ml-10 mt-10 md:text-[29px] text-[120px]">
             Opening Hours
           </div>

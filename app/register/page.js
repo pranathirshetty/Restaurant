@@ -91,11 +91,11 @@ export default function Register()
        <input type="text" placeholder="Confirm password*" className="w-250  md:w-100  p-10 md:p-4 md:text-[15px] text-[70px] md:ml-1 ml-250 bg-gray-200 mt-5 text-black border-gray-600 rounded-md"/>
       
        <button className="md:w-100 w-250 p-10 md:p-4 md:text-[20px] text-[70px] md:ml-1 ml-250 mt-5 text-white bg-[#826A45] rounded-md"> Register</button>
-<div className="mt-5 md:text-[28px] whitespace-nowrap md:ml-1 ml-210 text-[105px] font-medium dark:text-black">Or Register With</div>
+<div className="mt-5 md:text-[28px] whitespace-nowrap md:ml-1 ml-210 text-[105px] font-medium dark:text-white">Or Register With</div>
 <div className="flex md:flex-row flex-col md:gap-4 gap-10 md:m-4 m-10">
   <div className=" border border-gray-800 pl-20 pr-20 pt-2  m-2 text-[50px] md:ml-1 ml-100  md:text-[20px] rounded-md flex flex-row cursor-pointer">
       <img
-     className="md:h-6 h-20 mr-2 mt-1" src="https://cdn-icons-png.flaticon.com/128/300/300221.png"
+     className="md:h-6 h-20 mr-2 mt-1 " src="https://cdn-icons-png.flaticon.com/128/300/300221.png"
       />Google</div>
     <div className=" border border-gray-800 pl-20 pr-20 pt-2  m-2 text-[50px] md:ml-1 ml-100  md:text-[20px] rounded-md flex flex-row cursor-pointer">
       <img
@@ -103,7 +103,7 @@ export default function Register()
       />Facebook</div>
 
 </div>
-<span className="flex flex-row text-[70px] md:text-[20px] whitespace-nowrap md:ml-1 ml-150  dark:text-white">Already have an account? <span className="text-red-700 px-2 underline cursor-pointer">Login now</span></span>
+<span className="flex flex-row text-[70px] md:text-[20px] whitespace-nowrap md:ml-1 ml-150  dark:text-white">Already have an account? <span className="text-red-700 px-2 underline cursor-pointer">Register  now</span></span>
     </div>
     
     </div>
