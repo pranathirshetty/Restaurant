@@ -14,30 +14,21 @@ https://restaurant-murex-alpha.vercel.app/
 
 ### **/app**
 Main application folder using Next.js App Router.
-
 ####  /app/aboutus
 Contains the About Us page (`page.js`).
-
 ####  /app/blog
 Blog page section.
-
 ####  /app/login
 Login page (`page.js`).
-
 ####  /app/menu
 Menu page showing available dishes.
-
 ####  /app/register
 User registration page.
-
 ####  app/page.tsx
-Home page of the website.
-
+Home page of the website
 #### app/layout.tsx
 Root layout applied to all pages.
-
 ---
-
 ### **/app/components**
 This folder contains all your reusable UI components:
 
