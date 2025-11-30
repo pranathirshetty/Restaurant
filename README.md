@@ -15,25 +15,25 @@ https://restaurant-murex-alpha.vercel.app/
 ### **/app**
 Main application folder using Next.js App Router.
 
-#### ✔️ /app/aboutus
+####  /app/aboutus
 Contains the About Us page (`page.js`).
 
-#### ✔️ /app/blog
+####  /app/blog
 Blog page section.
 
-#### ✔️ /app/login
+####  /app/login
 Login page (`page.js`).
 
-#### ✔️ /app/menu
+####  /app/menu
 Menu page showing available dishes.
 
-#### ✔️ /app/register
+####  /app/register
 User registration page.
 
-#### ✔️ app/page.tsx
+####  app/page.tsx
 Home page of the website.
 
-#### ✔️ app/layout.tsx
+#### app/layout.tsx
 Root layout applied to all pages.
 
 ---
@@ -81,7 +81,7 @@ Global stylesheet for the project.
 ## 🧪 Tech Stack
 - **Next.js (App Router)**  
 - **React**  
-- **Tailwind CSS** (if used)  
+- **Tailwind CSS** 
 - **Vercel** for deployment  
 
 ---
