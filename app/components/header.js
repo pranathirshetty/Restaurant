@@ -1,3 +1,4 @@
+
 "use client";
 import { useRouter } from "next/navigation";
 export default function Header() {
@@ -5,20 +6,22 @@ export default function Header() {
   return (
     <div>
       <div
-        className="bg-cover bg-center md:h-screen md:w-screen h-600 w-410 md:border-transparent  "
+        className="bg-cover bg-center md:h-screen md:w-screen w-450 h-600 md:border-transparent bg-black/40 "
         style={{
           backgroundImage:
             "url('https://restan-nextjs.vercel.app/assets/img/banner/14.jpg')",
         }}
       >
-        <div className="bg-gray-800  text-white justify-between p-2 items-center dark:bg-gray-800">
+          <div className="absolute inset-0 bg-black/40"></div>
+            <div className="relative z-10">
+        <div className="bg-gray-800  text-white flex justify-between p-2 items-center dark:bg-gray-800 ">
           <div className="text-white rounded-sm flex row h-12 ">
             <img
               src="https://public-assets.envato-static.com/assets/logos/envato_market-dd390ae860330996644c1c109912d2bf63885fc075b87215ace9b5b4bdc71cc8.svg"
              width="150"
               alt="image not found "
             />
-            <button className="bg-green-600 ml-310 cursor-pointer p-1 m-2 rounded-xl">
+            <button className="bg-green-600 ml-300 cursor-pointer px-3 py-1 m-2 rounded-xl">
             Buy Now
             </button>
           </div>
@@ -49,14 +52,22 @@ export default function Header() {
             175 10h Street, Office 375 Berlin, De 21562
           </div>
         </div>
-        <div className=" text-white font-normal text-xl flex-row p-2 hidden md:flex">
-          <span className="ml-20 space-x-3 ">
-            <a href="">Home⮟</a>{" "}
-            <button onClick={() => router.push("/register")}>Register⮟</button>
-            <button onClick={() => router.push("/login")}>Login⮟</button>
+        <div className=" text-white font-normal md:text-[20px] flex-row p-2 text-[50px] \ md:flex">
+          <span className="flex gap-6 ml-5 md:ml-20 ">
+            <a 
+            className="hover:text-[#d38f28]"
+            href="">Home</a>
+            <button
+            className="hover:text-[#d38f28]" onClick={() => router.push("/register")}>Register</button>
+            <button className="hover:text-[#d38f28]"
+             onClick={() => router.push("/login")}>Login</button>
+           
           </span>
-          <span className="ml-210 space-x-3">
-            <a href="">Blog⮟</a> <a href="">Shop⮟</a> <a href="">Contact Us⮟</a>
+          <span className="md:ml-210 space-x-3 ml-5">
+            <button
+            className="hover:text-[#d38f28]" onClick={() => router.push("/")}>Blog</button>  <button className="hover:text-[#d38f28]"
+            onClick={() => router.push("/")}>Menu</button>    <button className="hover:text-[#d38f28]"
+            onClick={() => router.push("/")}>About us </button>
           </span>
         </div>
         <div>
@@ -65,8 +76,8 @@ export default function Header() {
             src="https://restan-nextjs.vercel.app/_next/image?url=%2Fassets%2Fimg%2Flogo-light.png&w=1920&q=75"
           />
         </div>
-        <div className=" text-white font-serif">
-          <div className=" md:text-8xl md:ml-109 md:mt-45 md:font-medium ml-70 md:text-[90px] text-[160px] mt-150 ">
+        <div className=" font-serif">
+          <div className=" text-white md:text-8xl md:ml-109 md:mt-45 md:font-medium ml-70 md:text-[90px] text-[160px] mt-150 ">
             Best Restaurant
           </div>
           <div className="flex justify-center h-200 w-200 md:h-45 md:w-45 border-amber-100 md:border-2 border-8 ml-100 rounded-full md:ml-170 md:mt-15  mt-35 font-[poppins] md:text-3xl text-[75px]  font-medium">
@@ -76,6 +87,7 @@ export default function Header() {
           </div>
         </div>
       </div>
+    </div>
     </div>
   );
 }

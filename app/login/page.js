@@ -1,7 +1,9 @@
 
+
 "use client";
 import Footer from "../components/footer";
 import Link from "next/link";
+
 export default function Register()
 {
     return (
@@ -58,38 +60,38 @@ export default function Register()
        width="150"/>
         <div className=" text-white font-normal text-lg  row p-2 flex justify-center mr-40 mt-[-70px]">
           <span className="ml-20 space-x-3 ">
-            <Link href="/">Home⮟</Link> <a href="">Pages⮟</a> <a href="">Menu⮟</a>
+            <Link href="/">Home</Link> <a href="">Pages</a> <a href="">Menu</a>
           </span>
           <span className="ml-2 space-x-3">
       
-            <a href="">Blog⮟</a> <a href="">Shop⮟</a> <a href="">Contact Us⮟</a>
+            <a href="">Blog</a> <a href="">Shop</a> <a href="">About Us</a>
           </span>
         </div> <div className="text-white text-[115px] md:text-[50px] font-bold font-[Marcellus]  flex justify-center mt-35">Login Page</div> 
       <div className="text-white flex justify-center  text-[55px] md:text-[20px]">Home login </div>
         </div>
-        <div className="flex md:flex-row flex-col dark:bg-white">
+        <div className="flex md:flex-row flex-col ">
        
   <img 
     className="absolute md:top-40 md:left-10 top-10 left-10 h-10 w-10"
     src="https://restan-nextjs.vercel.app/_next/image?url=%2Fassets%2Fimg%2Flogo-light.png&w=1920&q=75"
   />
 
-  <div className="md:ml-30 md:mt-10 ml-40 shrink-0">
+  <div className="md:ml-30 md:mt-10 ml-40 w-350 ">
     <img 
-      className="w-500 md:w-[700px] h-250 md:h-[550px]"
+      className="w-[100%] md:w-[700px] h-250 md:h-[550px]"
       src="https://restan-nextjs.vercel.app/_next/image?url=%2Fassets%2Fimg%2Fthumb%2F14.jpg&w=3840&q=75"
       alt="image not found"
     />
   </div>
     <div className="w-[600px]  flex flex-col  font-[Marcellus] items-center mt-20 ">
     <div className="md:text-3xl md:ml-1 ml-250  text-[100px] whitespace-nowrap text-[#826A45]">WELCOME BACK </div>  
-     <div className="md:text-[18px] text-gray-600 md:ml-1 ml-250 text-[80px] whitespace-nowrap ">Enter your details ato create a new account</div> 
+     <div className="md:text-[18px] text-gray-600 md:ml-1 ml-250 text-[80px] whitespace-nowrap dark:text-white">Enter your details ato create a new account</div> 
        <input type="text" placeholder="Email*" className="w-250 md:w-100  p-10 md:p-4 md:text-[15px] text-[70px] md:ml-1 ml-250 bg-gray-200 mt-5 text-black border-gray-600 rounded-md"/>
        <input type="text" placeholder="Password*" className="w-250  md:w-100 p-10 md:p-4 md:text-[15px] text-[70px] md:ml-1 ml-250 bg-gray-200 mt-5 text-black border-gray-600 rounded-md"/>
 
       
        <button className="md:w-100 w-250 p-10 md:p-4 md:text-[20px] text-[70px] md:ml-1 ml-250 mt-5 text-white bg-[#826A45] rounded-md">Lgin</button>
-<div className="mt-5 md:text-[28px] whitespace-nowrap md:ml-1 ml-210 text-[105px] font-medium dark:text-black">Or Login  With</div>
+<div className="mt-5 md:text-[28px] whitespace-nowrap md:ml-1 ml-210 text-[105px] font-medium dark:text-white">Or Login  With</div>
 <div className="flex md:flex-row flex-col md:gap-4 gap-10 md:m-4 m-10">
   <div className=" border border-gray-800 pl-20 pr-20 pt-2  m-2 text-[50px] md:ml-1 ml-100  md:text-[20px] rounded-md flex flex-row cursor-pointer">
       <img
@@ -101,7 +103,7 @@ export default function Register()
       />Facebook</div>
 
 </div>
-<span className="flex flex-row text-[70px] md:text-[20px] whitespace-nowrap md:ml-1 ml-150  dark:text-black">Already have an account? <span className="text-red-700 px-2 underline cursor-pointer">Register now</span></span>
+<span className="flex flex-row text-[70px] md:text-[20px] whitespace-nowrap md:ml-1 ml-150  dark:text-white">Already have an account? <span className="text-red-700 px-2 underline cursor-pointer">Login now</span></span>
     </div>
     
     </div>

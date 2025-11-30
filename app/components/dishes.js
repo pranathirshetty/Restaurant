@@ -10,7 +10,7 @@ export default function Dishes({image,title})
               alt="image not found"
             
             />
-            <div className= " dark:text-white text-amber-600 md:text-2xl text-[100px] md:ml-1 ml-130 font-sans font-bold  ">
+            <div className= " dark:text-white text-amber-600  md:text-2xl text-[100px] md:ml-1 ml-130 font-sans font-bold  ">
             {title}
             </div>
           </div>

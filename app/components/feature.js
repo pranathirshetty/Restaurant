@@ -13,7 +13,7 @@ export default function Feature({image,title})
           
           {title}
           </div>
-          <div className="text-gray-500 md:text-[15px] w-250 text-[60px] md:max-w-[310px]">
+          <div className="text-gray-500 md:text-[15px] w-250 text-[60px] md:max-w-[310px] dark:text-white">
            
             Belonging sir curiosity discovery extremity yet forfeited prevailed
             own off. Traveling by introduced of mr terminated.
